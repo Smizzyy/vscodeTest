@@ -2,16 +2,8 @@ myAge = 26
 
 myResult = myAge * 2
 
-# <, >, <=, >=, ==, !=
-
-# prüft von oben nach unten alle Bedingungen und die dann zutrifft, wird ausgeführt 
-if myAge > 18:
-    print("You are an adult!")
-elif myAge == 18: 
-    print("Congrats you are now an adult!")
-else:
-    print("You are not an adult!")
-
+# Loops führen eine Anweisung mehrmals durch. Hier wird fünf Mal iteriert
+# 52 * 2 = 102 * 2 = 204 * 2 = 408 * 2 = 816 * 2 = 1664
 for i in range(5):
     myResult = myResult * 2
 
